@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;600;700;800&family=Bebas+Neue&family=Belanosima:wght@400;600;700&family=Belleza&family=Quicksand:wght@300;400;600&display=swap');
+  body {
+    font-family: Anek Telugu;
+    font-weight: 300;
+    color: #22223b;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    /* background-color: f2e9e4; */
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    font-family: Bebas Neue;
+    color: #1d2d44;
+    text-align: center;
+  }
+
+  li {
+    display: inline;
+    margin-left: 0px;
+    align-content: center;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+    margin: 0 auto;
+    /* margin-left: 0px; */
+  }
+
+  a {
+    /* color: D83F31;
+    font-weight: 900;
+    font-size: 13; */
+    text-decoration: none;
+    font-weight: 300;
+    color:rgb(56, 22, 63);
+    transition: 0.3s ease;
+  }
+
+  a:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .img-circle {
+    border-radius: 50%;
+  }
+
+  .container-card {
+    /* padding: 80px; */
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #faedcd;
+    /* background-color: bisque; */
+    /* background-color: DEDBD2; */
+  }
+
+  .header-card {
+    padding: 20px;
+    width: 400px;
+    margin: 25px auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    background-color: #f2e9e4;
+    /* background-color: #fefae0; */
+    /* background-color: f7e1d7; */
+    /* background-color: rgb(231, 211, 197); */
+    /* background-color: rgb(235, 224, 238); */
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .links-card {
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    background-color: #f2e9e4;
+    /* background-color: rgb(231, 211, 197); */
+      /* background-color: f7e1d7; */
+  }
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container-card {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container-card {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container-card {
+      width: 300px;
+    }
+  }
+  #instagram {
+    color: rgb(209, 38, 146);
+  }
+  #linkedin {
+    color: rgb(55, 55, 233);
+  }
+  #spotify {
+    color: rgb(20, 94, 20);
+  }
+  #facebook {
+    color: rgb(36, 66, 176);
+  }
+  #soundcloud {
+    color: rgb(242, 131, 45);
+  }
+  #profile-pic {
+    width: 200px;
+    height: 200px;
+  }
